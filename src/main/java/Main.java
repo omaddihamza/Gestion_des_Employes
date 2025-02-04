@@ -82,6 +82,7 @@ public class Main {
                     int choixOrdre = scanner.nextInt();
                     boolean ordreCroissant = choixOrdre == 1;
                     EmployeService.trierEmployesParSalaire(ordreCroissant);
+                    break;
                 default:
                     System.out.println("Option invalide. Veuillez réessayer.");
             }

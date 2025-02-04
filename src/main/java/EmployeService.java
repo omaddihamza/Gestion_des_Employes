@@ -48,7 +48,8 @@ public class EmployeService {
             if (employes[i].getId() == id) {
                 employes[i].setNom(nouveauNom);
                 employes[i].setPoste(nouveauPoste);
-                employes[i].setSalaire(nouveauSalaire); // Correction de "setSalire" à "setSalaire"
+                employes[i].setSalaire(nouveauSalaire);
+                System.out.println("L'employé a été modifié.");
             }
         }
     }
